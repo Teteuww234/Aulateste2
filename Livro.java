@@ -8,6 +8,16 @@ public class Livro {
     double preco;
     String autor;
 
+
+    public Livro(double preco, String titulo){
+        this.preco = preco;
+        this.titulo = titulo;
+    }
+
+    public Livro(){
+        Livro obj1 = new Livro(44.9, "Harry Potter");
+        
+    }
     void cadastrar(){
         System.out.println("Cadastrando no banco de dados");
     }
