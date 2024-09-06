@@ -15,9 +15,21 @@ public class Livro {
     }
 
     public Livro(){
-        Livro obj1 = new Livro(44.9, "Harry Potter");
-        
+
     }
+
+    public void setPreco(double preco) {
+
+    }
+
+    public int getAnoPublicacao(){
+        return anoPublicacao;
+    }
+
+    public double getPreco(){
+        return this.preco;
+    }
+
     void cadastrar(){
         System.out.println("Cadastrando no banco de dados");
     }
