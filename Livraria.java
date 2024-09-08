@@ -14,7 +14,7 @@ public class Livraria {
         l1.cadastrar();
 
         Livro obj1 = new Livro(44.9, "Harry Potter");
-        System.out.println("Preço: " + obj1.preco);
+        System.out.println("Preço:  " + obj1.preco);
     }
     
 }
